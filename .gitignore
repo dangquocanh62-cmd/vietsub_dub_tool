@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Configuration & Secrets (chứa API key cá nhân)
+user_settings.json
+*.env
+*.key
+*.token
+
+# Temporary / Output media files
+*.mp3
+*.wav
+*.mp4
+*.mkv
+*.avi
+temp_*
+test_*.mp3
+test_*.wav
+
+# Debug frames & cache
+scratch/
+test_frames_out/
+.dubcache*/
+*.log
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+
+# Backup files
+gui_original_backup.py
+*.bak

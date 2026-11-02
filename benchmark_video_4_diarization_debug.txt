@@ -1,0 +1,888 @@
+=== SPEAKER DIARIZATION DEBUG ===
+Phát hiện: 6 người nói
+
+Người 1:
+  00:00:00.03 → 00:00:03.03
+  00:00:03.59 → 00:00:03.79
+  00:00:34.69 → 00:00:34.70
+  00:00:36.48 → 00:00:36.97
+  00:01:48.97 → 00:01:49.87
+  00:01:50.03 → 00:01:50.95
+  00:01:50.96 → 00:01:55.43
+  00:01:55.55 → 00:01:55.57
+  00:01:56.46 → 00:02:02.29
+  00:03:05.01 → 00:03:08.77
+  00:05:14.96 → 00:05:15.03
+  00:05:59.92 → 00:06:00.58
+  00:06:22.95 → 00:06:23.02
+
+Người 2:
+  00:00:03.03 → 00:00:03.59
+  00:00:05.19 → 00:00:05.83
+  00:00:05.92 → 00:00:06.46
+  00:00:08.14 → 00:00:11.89
+  00:00:13.21 → 00:00:15.06
+  00:00:15.30 → 00:00:32.00
+  00:00:32.24 → 00:00:33.03
+  00:00:37.51 → 00:00:38.05
+  00:00:43.51 → 00:00:44.02
+  00:00:44.53 → 00:00:45.42
+  00:00:46.03 → 00:00:46.04
+  00:00:46.63 → 00:00:46.65
+  00:00:47.95 → 00:00:50.08
+  00:00:50.57 → 00:00:50.77
+  00:00:52.68 → 00:00:54.11
+  00:00:54.73 → 00:00:55.43
+  00:00:56.27 → 00:00:57.62
+  00:01:03.17 → 00:01:05.53
+  00:01:08.35 → 00:01:08.74
+  00:01:09.01 → 00:01:10.90
+  00:01:12.30 → 00:01:14.24
+  00:01:19.07 → 00:01:19.10
+  00:01:19.59 → 00:01:19.64
+  00:01:19.74 → 00:01:21.09
+  00:01:27.46 → 00:01:28.37
+  00:01:28.79 → 00:01:37.01
+  00:01:37.23 → 00:01:42.22
+  00:01:42.24 → 00:01:46.32
+  00:02:08.51 → 00:02:09.74
+  00:02:14.15 → 00:02:15.62
+  00:02:17.83 → 00:02:28.78
+  00:02:30.47 → 00:02:34.87
+  00:02:36.95 → 00:02:37.77
+  00:02:38.03 → 00:02:38.18
+  00:02:39.02 → 00:02:41.71
+  00:02:42.09 → 00:02:43.70
+  00:02:44.15 → 00:02:44.73
+  00:02:45.05 → 00:02:45.89
+  00:02:47.19 → 00:02:47.36
+  00:02:47.68 → 00:02:48.42
+  00:02:48.73 → 00:02:49.65
+  00:02:49.84 → 00:02:50.97
+  00:02:52.40 → 00:02:54.99
+  00:02:56.18 → 00:02:57.89
+  00:02:58.29 → 00:02:58.80
+  00:03:00.03 → 00:03:00.55
+  00:03:03.51 → 00:03:04.18
+  00:03:13.67 → 00:03:14.02
+  00:03:16.57 → 00:03:17.92
+  00:03:18.22 → 00:03:20.11
+  00:03:21.36 → 00:03:23.10
+  00:03:23.23 → 00:03:24.47
+  00:03:25.63 → 00:03:27.05
+  00:03:30.96 → 00:03:32.43
+  00:03:47.59 → 00:03:47.87
+  00:03:48.95 → 00:03:49.63
+  00:03:50.45 → 00:03:51.84
+  00:03:52.19 → 00:03:52.29
+  00:03:52.83 → 00:03:55.26
+  00:04:02.79 → 00:04:04.70
+  00:04:25.59 → 00:04:26.28
+  00:04:26.85 → 00:04:27.66
+  00:04:28.47 → 00:04:37.54
+  00:04:38.23 → 00:04:38.43
+  00:04:39.05 → 00:04:40.10
+  00:04:40.45 → 00:04:41.37
+  00:04:43.19 → 00:04:44.30
+  00:04:44.99 → 00:04:46.02
+  00:04:47.15 → 00:04:48.00
+  00:04:48.08 → 00:04:50.43
+  00:04:50.88 → 00:04:51.37
+  00:05:02.32 → 00:05:03.15
+  00:05:03.69 → 00:05:04.79
+  00:05:05.28 → 00:05:06.97
+  00:05:07.61 → 00:05:08.30
+  00:05:09.07 → 00:05:09.51
+  00:05:11.17 → 00:05:12.80
+  00:05:12.97 → 00:05:13.02
+  00:05:13.39 → 00:05:13.99
+  00:05:16.70 → 00:05:17.53
+  00:05:17.93 → 00:05:19.03
+  00:05:19.47 → 00:05:23.22
+  00:05:23.64 → 00:05:25.44
+  00:05:25.65 → 00:05:26.56
+  00:05:27.18 → 00:05:27.89
+  00:05:28.57 → 00:05:29.38
+  00:05:29.81 → 00:05:36.63
+  00:05:37.00 → 00:05:39.42
+  00:05:39.62 → 00:05:41.41
+  00:05:42.59 → 00:05:43.18
+  00:05:45.00 → 00:05:47.14
+  00:05:47.57 → 00:05:49.52
+  00:05:49.95 → 00:05:52.49
+  00:05:52.54 → 00:05:54.32
+  00:05:55.19 → 00:05:56.12
+  00:05:56.41 → 00:05:57.67
+  00:05:58.13 → 00:05:59.13
+  00:05:59.82 → 00:06:00.73
+  00:06:01.81 → 00:06:03.48
+  00:06:04.37 → 00:06:04.91
+  00:06:06.04 → 00:06:08.58
+  00:06:09.67 → 00:06:09.96
+  00:06:10.03 → 00:06:18.72
+  00:06:20.56 → 00:06:21.65
+  00:06:21.77 → 00:06:22.95
+  00:06:24.69 → 00:06:24.88
+  00:06:25.37 → 00:06:33.97
+
+Người 3:
+  00:00:04.63 → 00:00:04.97
+  00:00:10.74 → 00:00:10.88
+  00:00:12.19 → 00:00:13.21
+  00:00:50.08 → 00:00:50.57
+  00:00:51.17 → 00:00:52.20
+  00:04:52.91 → 00:04:53.80
+  00:04:54.66 → 00:04:56.49
+  00:04:57.16 → 00:04:57.84
+  00:04:58.14 → 00:05:01.31
+  00:06:06.67 → 00:06:06.89
+  00:06:08.58 → 00:06:08.64
+  00:06:09.64 → 00:06:09.67
+  00:06:09.96 → 00:06:10.03
+
+Người 4:
+  00:00:04.97 → 00:00:04.99
+  00:00:46.04 → 00:00:46.63
+  00:03:16.97 → 00:03:18.02
+  00:03:35.35 → 00:03:36.13
+  00:03:37.41 → 00:03:39.54
+  00:03:42.22 → 00:03:45.21
+
+Người 5:
+  00:00:34.70 → 00:00:36.48
+  00:00:36.97 → 00:00:38.74
+  00:00:40.86 → 00:00:43.01
+  00:00:44.02 → 00:00:44.53
+  00:00:45.42 → 00:00:46.03
+  00:01:00.24 → 00:01:02.09
+  00:01:19.10 → 00:01:19.59
+  00:01:21.52 → 00:01:27.46
+  00:01:46.96 → 00:01:48.18
+  00:01:49.87 → 00:01:50.03
+  00:04:41.64 → 00:04:42.88
+
+Người 6:
+  00:01:55.57 → 00:01:56.87
+  00:02:02.94 → 00:02:05.66
+  00:02:09.74 → 00:02:14.08
+  00:02:15.67 → 00:02:17.79
+  00:02:28.95 → 00:02:30.40
+  00:02:34.87 → 00:02:37.74
+  00:02:37.77 → 00:02:38.03
+  00:02:38.18 → 00:02:38.21
+  00:02:38.68 → 00:02:39.02
+
+Subtitle #1: 00:00:00.00 → 00:00:01.00 [🟢 CONFIDENT]
+  → Người 1 (overlap: 0.97s/1.00s = 97%)
+
+Subtitle #2: 00:00:01.00 → 00:00:01.72 [🟢 CONFIDENT]
+  → Người 1 (overlap: 0.72s/0.72s = 100%)
+
+Subtitle #3: 00:00:01.72 → 00:00:02.48 [🟢 CONFIDENT]
+  → Người 1 (overlap: 0.76s/0.76s = 100%)
+
+Subtitle #4: 00:00:02.48 → 00:00:03.83 [🟡 UNCERTAIN]
+  → Người 1 (overlap: 0.76s/1.36s = 56%)
+  ⚠ Cảnh báo nghi vấn gộp giọng: có thêm Người 2 (41%)
+
+Subtitle #5: 00:00:04.54 → 00:00:05.07 [🟡 UNCERTAIN]
+  → Người 3 (overlap: 0.34s/0.52s = 65%)
+
+Subtitle #6: 00:00:05.07 → 00:00:06.50 [🟡 UNCERTAIN]
+  → Người 2 (overlap: 1.18s/1.44s = 82%)
+
+Subtitle #7: 00:00:08.10 → 00:00:09.10 [🟢 CONFIDENT]
+  → Người 2 (overlap: 0.96s/1.00s = 96%)
+
+Subtitle #8: 00:00:09.10 → 00:00:10.55 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.44s/1.44s = 100%)
+
+Subtitle #9: 00:00:10.55 → 00:00:11.94 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.34s/1.40s = 96%)
+
+Subtitle #10: 00:00:12.15 → 00:00:13.15 [🟢 CONFIDENT]
+  → Người 3 (overlap: 0.95s/1.00s = 95%)
+
+Subtitle #11: 00:00:13.15 → 00:00:13.67 [🟢 CONFIDENT]
+  → Người 2 (overlap: 0.46s/0.52s = 88%)
+
+Subtitle #12: 00:00:13.67 → 00:00:15.18 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.40s/1.52s = 92%)
+
+Subtitle #13: 00:00:15.18 → 00:00:16.03 [🟢 CONFIDENT]
+  → Người 2 (overlap: 0.73s/0.84s = 87%)
+
+Subtitle #14: 00:00:16.03 → 00:00:17.55 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.52s/1.52s = 100%)
+
+Subtitle #15: 00:00:17.55 → 00:00:18.71 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.16s/1.16s = 100%)
+
+Subtitle #16: 00:00:18.71 → 00:00:19.58 [🟢 CONFIDENT]
+  → Người 2 (overlap: 0.88s/0.88s = 100%)
+
+Subtitle #17: 00:00:19.58 → 00:00:20.46 [🟢 CONFIDENT]
+  → Người 2 (overlap: 0.88s/0.88s = 100%)
+
+Subtitle #18: 00:00:20.46 → 00:00:22.07 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.60s/1.60s = 100%)
+
+Subtitle #19: 00:00:22.07 → 00:00:23.19 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.12s/1.12s = 100%)
+
+Subtitle #20: 00:00:23.19 → 00:00:24.39 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.20s/1.20s = 100%)
+
+Subtitle #21: 00:00:24.39 → 00:00:25.35 [🟢 CONFIDENT]
+  → Người 2 (overlap: 0.96s/0.96s = 100%)
+
+Subtitle #22: 00:00:25.35 → 00:00:26.51 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.16s/1.16s = 100%)
+
+Subtitle #23: 00:00:26.51 → 00:00:27.55 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.04s/1.04s = 100%)
+
+Subtitle #24: 00:00:27.55 → 00:00:28.10 [🟢 CONFIDENT]
+  → Người 2 (overlap: 0.56s/0.56s = 100%)
+
+Subtitle #25: 00:00:28.10 → 00:00:29.58 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.48s/1.48s = 100%)
+
+Subtitle #26: 00:00:29.58 → 00:00:30.30 [🟢 CONFIDENT]
+  → Người 2 (overlap: 0.72s/0.72s = 100%)
+
+Subtitle #27: 00:00:30.98 → 00:00:33.10 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.81s/2.12s = 85%)
+
+Subtitle #28: 00:00:34.74 → 00:00:36.53 [🟢 CONFIDENT]
+  → Người 5 (overlap: 1.74s/1.80s = 97%)
+
+Subtitle #29: 00:00:36.97 → 00:00:38.06 [🟢 CONFIDENT]
+  → Người 5 (overlap: 1.08s/1.08s = 100%)
+  ⚠ Cảnh báo nghi vấn gộp giọng: có thêm Người 2 (50%)
+
+Subtitle #30: 00:00:40.89 → 00:00:41.97 [🟢 CONFIDENT]
+  → Người 5 (overlap: 1.08s/1.08s = 100%)
+
+Subtitle #31: 00:00:41.97 → 00:00:43.02 [🟢 CONFIDENT]
+  → Người 5 (overlap: 1.03s/1.04s = 99%)
+
+Subtitle #32: 00:00:43.50 → 00:00:44.10 [🟡 UNCERTAIN]
+  → Người 2 (overlap: 0.51s/0.60s = 84%)
+
+Subtitle #33: 00:00:44.10 → 00:00:44.65 [🟡 UNCERTAIN]
+  → Người 5 (overlap: 0.43s/0.56s = 77%)
+  ⚠ Cảnh báo nghi vấn gộp giọng: có thêm Người 2 (23%)
+
+Subtitle #34: 00:00:44.65 → 00:00:45.25 [🟢 CONFIDENT]
+  → Người 2 (overlap: 0.60s/0.60s = 100%)
+
+Subtitle #35: 00:00:47.96 → 00:00:48.56 [🟢 CONFIDENT]
+  → Người 2 (overlap: 0.60s/0.60s = 100%)
+
+Subtitle #36: 00:00:48.56 → 00:00:50.07 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.52s/1.52s = 100%)
+
+Subtitle #37: 00:00:50.07 → 00:00:50.60 [🟢 CONFIDENT]
+  → Người 3 (overlap: 0.49s/0.52s = 94%)
+
+Subtitle #38: 00:00:51.28 → 00:00:52.32 [🟢 CONFIDENT]
+  → Người 3 (overlap: 0.93s/1.04s = 89%)
+
+Subtitle #39: 00:00:52.67 → 00:00:53.75 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.08s/1.08s = 100%)
+
+Subtitle #40: 00:00:54.75 → 00:00:55.39 [🟢 CONFIDENT]
+  → Người 2 (overlap: 0.64s/0.64s = 100%)
+
+Subtitle #41: 00:00:56.32 → 00:00:57.75 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.31s/1.44s = 91%)
+
+Subtitle #42: 00:01:00.25 → 00:01:00.78 [🟢 CONFIDENT]
+  → Người 5 (overlap: 0.52s/0.52s = 100%)
+
+Subtitle #43: 00:01:00.78 → 00:01:02.25 [🟢 CONFIDENT]
+  → Người 5 (overlap: 1.32s/1.48s = 89%)
+
+Subtitle #44: 00:01:03.21 → 00:01:03.85 [🟢 CONFIDENT]
+  → Người 2 (overlap: 0.64s/0.64s = 100%)
+
+Subtitle #45: 00:01:03.85 → 00:01:05.32 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.48s/1.48s = 100%)
+
+Subtitle #46: 00:01:08.29 → 00:01:08.81 [🟡 UNCERTAIN]
+  → Người 2 (overlap: 0.39s/0.52s = 75%)
+
+Subtitle #47: 00:01:09.01 → 00:01:09.62 [🟢 CONFIDENT]
+  → Người 2 (overlap: 0.60s/0.60s = 100%)
+
+Subtitle #48: 00:01:09.62 → 00:01:10.93 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.29s/1.32s = 97%)
+
+Subtitle #49: 00:01:12.29 → 00:01:14.29 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.94s/2.00s = 97%)
+
+Subtitle #50: 00:01:19.09 → 00:01:19.65 [🟢 CONFIDENT]
+  → Người 5 (overlap: 0.49s/0.56s = 87%)
+
+Subtitle #51: 00:01:19.65 → 00:01:20.26 [🟢 CONFIDENT]
+  → Người 2 (overlap: 0.51s/0.60s = 85%)
+
+Subtitle #52: 00:01:20.26 → 00:01:21.14 [🟢 CONFIDENT]
+  → Người 2 (overlap: 0.84s/0.88s = 95%)
+
+Subtitle #53: 00:01:21.45 → 00:01:22.14 [🟢 CONFIDENT]
+  → Người 5 (overlap: 0.62s/0.68s = 91%)
+
+Subtitle #54: 00:01:22.14 → 00:01:24.14 [🟢 CONFIDENT]
+  → Người 5 (overlap: 2.00s/2.00s = 100%)
+
+Subtitle #55: 00:01:24.37 → 00:01:25.62 [🟢 CONFIDENT]
+  → Người 5 (overlap: 1.24s/1.24s = 100%)
+
+Subtitle #56: 00:01:25.62 → 00:01:26.50 [🟢 CONFIDENT]
+  → Người 5 (overlap: 0.88s/0.88s = 100%)
+
+Subtitle #57: 00:01:26.50 → 00:01:27.29 [🟢 CONFIDENT]
+  → Người 5 (overlap: 0.80s/0.80s = 100%)
+
+Subtitle #58: 00:01:27.29 → 00:01:28.37 [🟡 UNCERTAIN]
+  → Người 2 (overlap: 0.91s/1.08s = 84%)
+
+Subtitle #59: 00:01:28.78 → 00:01:29.78 [🟢 CONFIDENT]
+  → Người 2 (overlap: 0.99s/1.00s = 99%)
+
+Subtitle #60: 00:01:29.78 → 00:01:30.81 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.04s/1.04s = 100%)
+
+Subtitle #61: 00:01:30.81 → 00:01:32.70 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.88s/1.88s = 100%)
+
+Subtitle #62: 00:01:32.70 → 00:01:33.81 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.12s/1.12s = 100%)
+
+Subtitle #63: 00:01:33.81 → 00:01:35.85 [🟢 CONFIDENT]
+  → Người 2 (overlap: 2.04s/2.04s = 100%)
+
+Subtitle #64: 00:01:35.85 → 00:01:36.90 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.04s/1.04s = 100%)
+
+Subtitle #65: 00:01:37.21 → 00:01:37.98 [🟢 CONFIDENT]
+  → Người 2 (overlap: 0.75s/0.76s = 99%)
+
+Subtitle #66: 00:01:37.98 → 00:01:38.90 [🟢 CONFIDENT]
+  → Người 2 (overlap: 0.92s/0.92s = 100%)
+
+Subtitle #67: 00:01:39.14 → 00:01:40.65 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.52s/1.52s = 100%)
+
+Subtitle #68: 00:01:40.65 → 00:01:42.14 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.48s/1.48s = 100%)
+
+Subtitle #69: 00:01:42.14 → 00:01:44.65 [🟢 CONFIDENT]
+  → Người 2 (overlap: 2.50s/2.52s = 99%)
+
+Subtitle #70: 00:01:44.65 → 00:01:46.34 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.67s/1.68s = 99%)
+
+Subtitle #71: 00:01:46.90 → 00:01:48.18 [🟢 CONFIDENT]
+  → Người 5 (overlap: 1.21s/1.28s = 95%)
+
+Subtitle #72: 00:01:48.18 → 00:01:49.34 [🔴 UNKNOWN]
+  → không xác định (overlap cao nhất chỉ 31%, dưới ngưỡng 55%)
+
+Subtitle #73: 00:01:55.46 → 00:01:56.87 [🟢 CONFIDENT]
+  → Người 6 (overlap: 1.30s/1.40s = 93%)
+  ⚠ Cảnh báo nghi vấn gộp giọng: có thêm Người 1 (30%)
+
+Subtitle #74: 00:02:02.82 → 00:02:03.79 [🟢 CONFIDENT]
+  → Người 6 (overlap: 0.84s/0.96s = 88%)
+
+Subtitle #75: 00:02:03.79 → 00:02:04.67 [🟢 CONFIDENT]
+  → Người 6 (overlap: 0.88s/0.88s = 100%)
+
+Subtitle #76: 00:02:04.67 → 00:02:05.59 [🟢 CONFIDENT]
+  → Người 6 (overlap: 0.92s/0.92s = 100%)
+
+Subtitle #77: 00:02:05.59 → 00:02:06.90 [🔴 UNKNOWN]
+  → không xác định (overlap cao nhất chỉ 6%, dưới ngưỡng 55%)
+
+Subtitle #78: 00:02:08.37 → 00:02:09.65 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.14s/1.28s = 89%)
+
+Subtitle #79: 00:02:09.65 → 00:02:10.21 [🟡 UNCERTAIN]
+  → Người 6 (overlap: 0.47s/0.56s = 84%)
+  ⚠ Cảnh báo nghi vấn gộp giọng: có thêm Người 2 (16%)
+
+Subtitle #80: 00:02:10.21 → 00:02:11.46 [🟢 CONFIDENT]
+  → Người 6 (overlap: 1.24s/1.24s = 100%)
+
+Subtitle #81: 00:02:11.46 → 00:02:12.86 [🟢 CONFIDENT]
+  → Người 6 (overlap: 1.40s/1.40s = 100%)
+
+Subtitle #82: 00:02:12.86 → 00:02:14.06 [🟢 CONFIDENT]
+  → Người 6 (overlap: 1.20s/1.20s = 100%)
+
+Subtitle #83: 00:02:14.06 → 00:02:15.58 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.43s/1.52s = 94%)
+
+Subtitle #84: 00:02:15.58 → 00:02:16.78 [🟢 CONFIDENT]
+  → Người 6 (overlap: 1.11s/1.20s = 92%)
+
+Subtitle #85: 00:02:16.78 → 00:02:17.78 [🟢 CONFIDENT]
+  → Người 6 (overlap: 1.00s/1.00s = 100%)
+
+Subtitle #86: 00:02:17.78 → 00:02:18.62 [🟢 CONFIDENT]
+  → Người 2 (overlap: 0.79s/0.84s = 94%)
+
+Subtitle #87: 00:02:18.62 → 00:02:21.06 [🟢 CONFIDENT]
+  → Người 2 (overlap: 2.44s/2.44s = 100%)
+
+Subtitle #88: 00:02:21.06 → 00:02:22.97 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.92s/1.92s = 100%)
+
+Subtitle #89: 00:02:22.97 → 00:02:23.97 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.00s/1.00s = 100%)
+
+Subtitle #90: 00:02:23.97 → 00:02:24.69 [🟢 CONFIDENT]
+  → Người 2 (overlap: 0.72s/0.72s = 100%)
+
+Subtitle #91: 00:02:24.69 → 00:02:25.86 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.16s/1.16s = 100%)
+
+Subtitle #92: 00:02:25.86 → 00:02:26.65 [🟢 CONFIDENT]
+  → Người 2 (overlap: 0.80s/0.80s = 100%)
+
+Subtitle #93: 00:02:26.65 → 00:02:27.86 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.20s/1.20s = 100%)
+
+Subtitle #94: 00:02:27.86 → 00:02:28.86 [🟢 CONFIDENT]
+  → Người 2 (overlap: 0.92s/1.00s = 92%)
+
+Subtitle #95: 00:02:28.86 → 00:02:29.69 [🟢 CONFIDENT]
+  → Người 6 (overlap: 0.75s/0.84s = 89%)
+
+Subtitle #96: 00:02:29.69 → 00:02:30.37 [🟢 CONFIDENT]
+  → Người 6 (overlap: 0.68s/0.68s = 100%)
+
+Subtitle #97: 00:02:30.37 → 00:02:31.46 [🟢 CONFIDENT]
+  → Người 2 (overlap: 0.99s/1.08s = 92%)
+
+Subtitle #98: 00:02:31.46 → 00:02:33.21 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.76s/1.76s = 100%)
+
+Subtitle #99: 00:02:33.21 → 00:02:33.81 [🟢 CONFIDENT]
+  → Người 2 (overlap: 0.60s/0.60s = 100%)
+
+Subtitle #100: 00:02:33.81 → 00:02:34.74 [🟢 CONFIDENT]
+  → Người 2 (overlap: 0.92s/0.92s = 100%)
+
+Subtitle #101: 00:02:34.74 → 00:02:35.09 [🟡 UNCERTAIN]
+  → Người 6 (overlap: 0.22s/0.36s = 62%)
+  ⚠ Cảnh báo nghi vấn gộp giọng: có thêm Người 2 (38%)
+
+Subtitle #102: 00:02:35.09 → 00:02:36.06 [🟢 CONFIDENT]
+  → Người 6 (overlap: 0.96s/0.96s = 100%)
+
+Subtitle #103: 00:02:36.06 → 00:02:36.86 [🟢 CONFIDENT]
+  → Người 6 (overlap: 0.80s/0.80s = 100%)
+
+Subtitle #104: 00:02:36.86 → 00:02:37.69 [🟢 CONFIDENT]
+  → Người 6 (overlap: 0.84s/0.84s = 100%)
+  ⚠ Cảnh báo nghi vấn gộp giọng: có thêm Người 2 (89%)
+
+Subtitle #105: 00:02:37.69 → 00:02:38.25 [🟡 UNCERTAIN]
+  → Người 6 (overlap: 0.33s/0.56s = 59%)
+  ⚠ Cảnh báo nghi vấn gộp giọng: có thêm Người 2 (41%)
+
+Subtitle #106: 00:02:38.65 → 00:02:39.69 [🟡 UNCERTAIN]
+  → Người 2 (overlap: 0.67s/1.04s = 65%)
+  ⚠ Cảnh báo nghi vấn gộp giọng: có thêm Người 6 (32%)
+
+Subtitle #107: 00:02:39.69 → 00:02:41.69 [🟢 CONFIDENT]
+  → Người 2 (overlap: 2.00s/2.00s = 100%)
+
+Subtitle #108: 00:02:42.09 → 00:02:43.69 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.60s/1.60s = 100%)
+
+Subtitle #109: 00:02:44.09 → 00:02:44.69 [🟢 CONFIDENT]
+  → Người 2 (overlap: 0.54s/0.60s = 90%)
+
+Subtitle #110: 00:02:44.90 → 00:02:45.90 [🟡 UNCERTAIN]
+  → Người 2 (overlap: 0.84s/1.00s = 84%)
+
+Subtitle #111: 00:02:47.02 → 00:02:48.41 [🟡 UNCERTAIN]
+  → Người 2 (overlap: 0.90s/1.40s = 65%)
+
+Subtitle #112: 00:02:48.62 → 00:02:49.62 [🟢 CONFIDENT]
+  → Người 2 (overlap: 0.89s/1.00s = 89%)
+
+Subtitle #113: 00:02:49.81 → 00:02:50.81 [🟢 CONFIDENT]
+  → Người 2 (overlap: 0.98s/1.00s = 98%)
+
+Subtitle #114: 00:02:52.28 → 00:02:53.88 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.48s/1.60s = 93%)
+
+Subtitle #115: 00:02:54.09 → 00:02:54.88 [🟢 CONFIDENT]
+  → Người 2 (overlap: 0.80s/0.80s = 100%)
+
+Subtitle #116: 00:02:56.13 → 00:02:57.13 [🟢 CONFIDENT]
+  → Người 2 (overlap: 0.95s/1.00s = 95%)
+
+Subtitle #117: 00:02:57.13 → 00:02:57.74 [🟢 CONFIDENT]
+  → Người 2 (overlap: 0.60s/0.60s = 100%)
+
+Subtitle #118: 00:02:58.13 → 00:02:58.53 [🟡 UNCERTAIN]
+  → Người 2 (overlap: 0.24s/0.40s = 60%)
+
+Subtitle #119: 00:02:59.90 → 00:03:00.31 [🟡 UNCERTAIN]
+  → Người 2 (overlap: 0.27s/0.40s = 68%)
+
+Subtitle #120: 00:03:03.50 → 00:03:04.09 [🟢 CONFIDENT]
+  → Người 2 (overlap: 0.59s/0.60s = 98%)
+
+Subtitle #121: 00:03:05.06 → 00:03:05.86 [🟢 CONFIDENT]
+  → Người 1 (overlap: 0.80s/0.80s = 100%)
+
+Subtitle #122: 00:03:05.86 → 00:03:06.65 [🟢 CONFIDENT]
+  → Người 1 (overlap: 0.80s/0.80s = 100%)
+
+Subtitle #123: 00:03:06.65 → 00:03:07.46 [🟢 CONFIDENT]
+  → Người 1 (overlap: 0.80s/0.80s = 100%)
+
+Subtitle #124: 00:03:07.46 → 00:03:08.65 [🟢 CONFIDENT]
+  → Người 1 (overlap: 1.20s/1.20s = 100%)
+
+Subtitle #125: 00:03:13.65 → 00:03:14.06 [🟢 CONFIDENT]
+  → Người 2 (overlap: 0.35s/0.40s = 89%)
+
+Subtitle #126: 00:03:16.93 → 00:03:17.93 [🟢 CONFIDENT]
+  → Người 2 (overlap: 0.99s/1.00s = 99%)
+  ⚠ Cảnh báo nghi vấn gộp giọng: có thêm Người 4 (95%)
+
+Subtitle #127: 00:03:18.12 → 00:03:19.33 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.10s/1.20s = 92%)
+
+Subtitle #128: 00:03:19.53 → 00:03:19.93 [🟢 CONFIDENT]
+  → Người 2 (overlap: 0.40s/0.40s = 100%)
+
+Subtitle #129: 00:03:19.93 → 00:03:22.81 [🟡 UNCERTAIN]
+  → Người 2 (overlap: 1.64s/2.89s = 57%)
+
+Subtitle #130: 00:03:22.81 → 00:03:25.37 [🟡 UNCERTAIN]
+  → Người 2 (overlap: 1.52s/2.55s = 59%)
+
+Subtitle #131: 00:03:25.37 → 00:03:27.37 [🟡 UNCERTAIN]
+  → Người 2 (overlap: 1.42s/2.00s = 71%)
+
+Subtitle #132: 00:03:35.36 → 00:03:36.36 [🟡 UNCERTAIN]
+  → Người 4 (overlap: 0.77s/1.00s = 77%)
+
+Subtitle #133: 00:03:36.36 → 00:03:38.41 [🔴 UNKNOWN]
+  → không xác định (overlap cao nhất chỉ 49%, dưới ngưỡng 55%)
+
+Subtitle #134: 00:03:38.41 → 00:03:39.61 [🟢 CONFIDENT]
+  → Người 4 (overlap: 1.12s/1.19s = 94%)
+
+Subtitle #135: 00:03:39.61 → 00:03:43.62 [🔴 UNKNOWN]
+  → không xác định (overlap cao nhất chỉ 35%, dưới ngưỡng 55%)
+
+Subtitle #136: 00:03:43.62 → 00:03:47.37 [🔴 UNKNOWN]
+  → không xác định (overlap cao nhất chỉ 42%, dưới ngưỡng 55%)
+
+Subtitle #137: 00:03:47.37 → 00:03:48.83 [🔴 UNKNOWN]
+  → không xác định (overlap cao nhất chỉ 20%, dưới ngưỡng 55%)
+
+Subtitle #138: 00:03:48.83 → 00:03:49.83 [🟡 UNCERTAIN]
+  → Người 2 (overlap: 0.68s/1.00s = 68%)
+
+Subtitle #139: 00:03:49.83 → 00:03:51.96 [🟡 UNCERTAIN]
+  → Người 2 (overlap: 1.38s/2.13s = 65%)
+
+Subtitle #140: 00:03:51.96 → 00:03:53.96 [🟡 UNCERTAIN]
+  → Người 2 (overlap: 1.22s/2.00s = 61%)
+
+Subtitle #141: 00:03:53.96 → 00:03:54.96 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.00s/1.00s = 100%)
+
+Subtitle #142: 00:04:02.65 → 00:04:03.65 [🟢 CONFIDENT]
+  → Người 2 (overlap: 0.87s/1.00s = 87%)
+
+Subtitle #143: 00:04:03.65 → 00:04:04.65 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.00s/1.00s = 100%)
+
+Subtitle #144: 00:04:25.57 → 00:04:26.77 [🟡 UNCERTAIN]
+  → Người 2 (overlap: 0.69s/1.20s = 58%)
+
+Subtitle #145: 00:04:26.77 → 00:04:28.54 [🔴 UNKNOWN]
+  → không xác định (overlap cao nhất chỉ 50%, dưới ngưỡng 55%)
+
+Subtitle #146: 00:04:28.54 → 00:04:29.33 [🟢 CONFIDENT]
+  → Người 2 (overlap: 0.80s/0.80s = 100%)
+
+Subtitle #147: 00:04:29.33 → 00:04:29.93 [🟢 CONFIDENT]
+  → Người 2 (overlap: 0.60s/0.60s = 100%)
+
+Subtitle #148: 00:04:29.93 → 00:04:32.13 [🟢 CONFIDENT]
+  → Người 2 (overlap: 2.20s/2.20s = 100%)
+
+Subtitle #149: 00:04:32.13 → 00:04:33.93 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.80s/1.80s = 100%)
+
+Subtitle #150: 00:04:33.93 → 00:04:36.13 [🟢 CONFIDENT]
+  → Người 2 (overlap: 2.20s/2.20s = 100%)
+
+Subtitle #151: 00:04:36.13 → 00:04:38.18 [🟡 UNCERTAIN]
+  → Người 2 (overlap: 1.40s/2.04s = 69%)
+
+Subtitle #152: 00:04:38.18 → 00:04:38.77 [🔴 UNKNOWN]
+  → không xác định (overlap cao nhất chỉ 34%, dưới ngưỡng 55%)
+
+Subtitle #153: 00:04:38.77 → 00:04:40.50 [🟡 UNCERTAIN]
+  → Người 2 (overlap: 1.09s/1.72s = 63%)
+
+Subtitle #154: 00:04:40.50 → 00:04:41.69 [🟡 UNCERTAIN]
+  → Người 2 (overlap: 0.87s/1.20s = 73%)
+
+Subtitle #155: 00:04:41.69 → 00:04:43.19 [🟡 UNCERTAIN]
+  → Người 5 (overlap: 1.19s/1.50s = 79%)
+
+Subtitle #156: 00:04:43.19 → 00:04:45.10 [🟡 UNCERTAIN]
+  → Người 2 (overlap: 1.21s/1.90s = 64%)
+
+Subtitle #157: 00:04:45.10 → 00:04:46.30 [🟡 UNCERTAIN]
+  → Người 2 (overlap: 0.93s/1.20s = 77%)
+
+Subtitle #158: 00:04:48.30 → 00:04:49.50 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.20s/1.20s = 100%)
+
+Subtitle #159: 00:04:49.50 → 00:04:50.89 [🟡 UNCERTAIN]
+  → Người 2 (overlap: 0.94s/1.40s = 67%)
+
+Subtitle #160: 00:04:52.89 → 00:04:54.62 [🔴 UNKNOWN]
+  → không xác định (overlap cao nhất chỉ 52%, dưới ngưỡng 55%)
+
+Subtitle #161: 00:04:54.62 → 00:04:56.62 [🟢 CONFIDENT]
+  → Người 3 (overlap: 1.82s/2.00s = 91%)
+
+Subtitle #162: 00:04:57.10 → 00:04:57.89 [🟡 UNCERTAIN]
+  → Người 3 (overlap: 0.67s/0.80s = 84%)
+
+Subtitle #163: 00:04:58.10 → 00:04:59.50 [🟢 CONFIDENT]
+  → Người 3 (overlap: 1.36s/1.40s = 97%)
+
+Subtitle #164: 00:04:59.50 → 00:05:00.81 [🟢 CONFIDENT]
+  → Người 3 (overlap: 1.32s/1.32s = 100%)
+
+Subtitle #165: 00:05:02.27 → 00:05:03.27 [🟡 UNCERTAIN]
+  → Người 2 (overlap: 0.83s/1.00s = 83%)
+
+Subtitle #166: 00:05:03.68 → 00:05:04.92 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.10s/1.24s = 88%)
+
+Subtitle #167: 00:05:05.19 → 00:05:06.00 [🟢 CONFIDENT]
+  → Người 2 (overlap: 0.72s/0.80s = 90%)
+
+Subtitle #168: 00:05:06.00 → 00:05:07.12 [🟢 CONFIDENT]
+  → Người 2 (overlap: 0.97s/1.12s = 87%)
+
+Subtitle #169: 00:05:07.51 → 00:05:08.48 [🟡 UNCERTAIN]
+  → Người 2 (overlap: 0.69s/0.96s = 72%)
+
+Subtitle #170: 00:05:08.48 → 00:05:09.07 [🔴 UNKNOWN]
+  → không xác định (overlap cao nhất chỉ 0%, dưới ngưỡng 55%)
+
+Subtitle #171: 00:05:09.07 → 00:05:09.68 [🟡 UNCERTAIN]
+  → Người 2 (overlap: 0.44s/0.60s = 73%)
+
+Subtitle #172: 00:05:10.98 → 00:05:11.57 [🟡 UNCERTAIN]
+  → Người 2 (overlap: 0.41s/0.60s = 68%)
+
+Subtitle #173: 00:05:11.57 → 00:05:12.93 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.23s/1.36s = 90%)
+
+Subtitle #174: 00:05:13.37 → 00:05:14.01 [🟢 CONFIDENT]
+  → Người 2 (overlap: 0.59s/0.64s = 92%)
+
+Subtitle #175: 00:05:16.63 → 00:05:17.56 [🟢 CONFIDENT]
+  → Người 2 (overlap: 0.83s/0.92s = 90%)
+
+Subtitle #176: 00:05:17.92 → 00:05:19.16 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.10s/1.24s = 88%)
+
+Subtitle #177: 00:05:19.43 → 00:05:20.12 [🟢 CONFIDENT]
+  → Người 2 (overlap: 0.65s/0.68s = 95%)
+
+Subtitle #178: 00:05:20.12 → 00:05:20.72 [🟢 CONFIDENT]
+  → Người 2 (overlap: 0.60s/0.60s = 100%)
+
+Subtitle #179: 00:05:20.72 → 00:05:21.83 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.12s/1.12s = 100%)
+
+Subtitle #180: 00:05:21.83 → 00:05:23.27 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.38s/1.44s = 96%)
+
+Subtitle #181: 00:05:23.60 → 00:05:24.43 [🟢 CONFIDENT]
+  → Người 2 (overlap: 0.80s/0.84s = 95%)
+
+Subtitle #182: 00:05:24.43 → 00:05:25.43 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.00s/1.00s = 100%)
+
+Subtitle #183: 00:05:25.56 → 00:05:26.63 [🟡 UNCERTAIN]
+  → Người 2 (overlap: 0.91s/1.08s = 84%)
+
+Subtitle #184: 00:05:26.63 → 00:05:28.63 [🔴 UNKNOWN]
+  → không xác định (overlap cao nhất chỉ 39%, dưới ngưỡng 55%)
+
+Subtitle #185: 00:05:28.63 → 00:05:29.63 [🟡 UNCERTAIN]
+  → Người 2 (overlap: 0.74s/1.00s = 74%)
+
+Subtitle #186: 00:05:29.63 → 00:05:30.63 [🟡 UNCERTAIN]
+  → Người 2 (overlap: 0.82s/1.00s = 82%)
+
+Subtitle #187: 00:05:30.63 → 00:05:31.63 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.00s/1.00s = 100%)
+
+Subtitle #188: 00:05:31.63 → 00:05:32.63 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.00s/1.00s = 100%)
+
+Subtitle #189: 00:05:32.63 → 00:05:33.63 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.00s/1.00s = 100%)
+
+Subtitle #190: 00:05:33.63 → 00:05:34.63 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.00s/1.00s = 100%)
+
+Subtitle #191: 00:05:34.63 → 00:05:35.63 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.00s/1.00s = 100%)
+
+Subtitle #192: 00:05:35.63 → 00:05:36.63 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.00s/1.00s = 100%)
+
+Subtitle #193: 00:05:36.63 → 00:05:37.63 [🟡 UNCERTAIN]
+  → Người 2 (overlap: 0.63s/1.00s = 63%)
+
+Subtitle #194: 00:05:37.63 → 00:05:38.63 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.00s/1.00s = 100%)
+
+Subtitle #195: 00:05:38.63 → 00:05:39.63 [🟡 UNCERTAIN]
+  → Người 2 (overlap: 0.80s/1.00s = 80%)
+
+Subtitle #196: 00:05:39.63 → 00:05:40.63 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.00s/1.00s = 100%)
+
+Subtitle #197: 00:05:40.63 → 00:05:41.63 [🟡 UNCERTAIN]
+  → Người 2 (overlap: 0.77s/1.00s = 77%)
+
+Subtitle #198: 00:05:41.63 → 00:05:43.01 [🔴 UNKNOWN]
+  → không xác định (overlap cao nhất chỉ 31%, dưới ngưỡng 55%)
+
+Subtitle #199: 00:05:43.01 → 00:05:46.07 [🔴 UNKNOWN]
+  → không xác định (overlap cao nhất chỉ 40%, dưới ngưỡng 55%)
+
+Subtitle #200: 00:05:46.07 → 00:05:47.07 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.00s/1.00s = 100%)
+
+Subtitle #201: 00:05:47.07 → 00:05:48.07 [🟡 UNCERTAIN]
+  → Người 2 (overlap: 0.58s/1.00s = 58%)
+
+Subtitle #202: 00:05:48.07 → 00:05:50.07 [🟡 UNCERTAIN]
+  → Người 2 (overlap: 1.58s/2.00s = 79%)
+
+Subtitle #203: 00:05:50.07 → 00:05:51.07 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.00s/1.00s = 100%)
+
+Subtitle #204: 00:05:51.07 → 00:05:52.07 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.00s/1.00s = 100%)
+
+Subtitle #205: 00:05:52.07 → 00:05:53.07 [🟢 CONFIDENT]
+  → Người 2 (overlap: 0.95s/1.00s = 95%)
+
+Subtitle #206: 00:05:53.07 → 00:05:55.13 [🟡 UNCERTAIN]
+  → Người 2 (overlap: 1.24s/2.06s = 60%)
+
+Subtitle #207: 00:05:55.13 → 00:05:56.13 [🟢 CONFIDENT]
+  → Người 2 (overlap: 0.93s/1.00s = 93%)
+
+Subtitle #208: 00:05:56.13 → 00:05:57.93 [🟡 UNCERTAIN]
+  → Người 2 (overlap: 1.27s/1.80s = 70%)
+
+Subtitle #209: 00:05:57.93 → 00:05:59.54 [🟡 UNCERTAIN]
+  → Người 2 (overlap: 1.00s/1.60s = 62%)
+
+Subtitle #210: 00:05:59.54 → 00:06:01.04 [🟡 UNCERTAIN]
+  → Người 2 (overlap: 0.91s/1.50s = 61%)
+  ⚠ Cảnh báo nghi vấn gộp giọng: có thêm Người 1 (44%)
+
+Subtitle #211: 00:06:01.04 → 00:06:02.39 [🔴 UNKNOWN]
+  → không xác định (overlap cao nhất chỉ 43%, dưới ngưỡng 55%)
+
+Subtitle #212: 00:06:02.39 → 00:06:03.89 [🟡 UNCERTAIN]
+  → Người 2 (overlap: 1.08s/1.50s = 72%)
+
+Subtitle #213: 00:06:03.89 → 00:06:05.81 [🔴 UNKNOWN]
+  → không xác định (overlap cao nhất chỉ 28%, dưới ngưỡng 55%)
+
+Subtitle #214: 00:06:05.81 → 00:06:06.81 [🟡 UNCERTAIN]
+  → Người 2 (overlap: 0.76s/1.00s = 76%)
+
+Subtitle #215: 00:06:06.81 → 00:06:09.38 [🟡 UNCERTAIN]
+  → Người 2 (overlap: 1.77s/2.58s = 69%)
+
+Subtitle #216: 00:06:09.38 → 00:06:10.38 [🟡 UNCERTAIN]
+  → Người 2 (overlap: 0.64s/1.00s = 64%)
+
+Subtitle #217: 00:06:10.38 → 00:06:10.68 [🟢 CONFIDENT]
+  → Người 2 (overlap: 0.30s/0.30s = 100%)
+
+Subtitle #218: 00:06:10.68 → 00:06:12.29 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.60s/1.60s = 100%)
+
+Subtitle #219: 00:06:12.29 → 00:06:13.68 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.40s/1.40s = 100%)
+
+Subtitle #220: 00:06:13.68 → 00:06:14.99 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.30s/1.30s = 100%)
+
+Subtitle #221: 00:06:14.99 → 00:06:16.38 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.40s/1.40s = 100%)
+
+Subtitle #222: 00:06:16.38 → 00:06:17.29 [🟢 CONFIDENT]
+  → Người 2 (overlap: 0.90s/0.90s = 100%)
+
+Subtitle #223: 00:06:17.29 → 00:06:18.08 [🟢 CONFIDENT]
+  → Người 2 (overlap: 0.80s/0.80s = 100%)
+
+Subtitle #224: 00:06:18.08 → 00:06:18.99 [🟡 UNCERTAIN]
+  → Người 2 (overlap: 0.63s/0.90s = 70%)
+
+Subtitle #225: 00:06:18.99 → 00:06:21.76 [🔴 UNKNOWN]
+  → không xác định (overlap cao nhất chỉ 39%, dưới ngưỡng 55%)
+
+Subtitle #226: 00:06:25.23 → 00:06:25.93 [🟡 UNCERTAIN]
+  → Người 2 (overlap: 0.56s/0.70s = 80%)
+
+Subtitle #227: 00:06:25.93 → 00:06:27.43 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.50s/1.50s = 100%)
+
+Subtitle #228: 00:06:27.43 → 00:06:28.93 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.50s/1.50s = 100%)
+
+Subtitle #229: 00:06:28.93 → 00:06:29.43 [🟢 CONFIDENT]
+  → Người 2 (overlap: 0.50s/0.50s = 100%)
+
+Subtitle #230: 00:06:29.43 → 00:06:30.32 [🟢 CONFIDENT]
+  → Người 2 (overlap: 0.90s/0.90s = 100%)
+
+Subtitle #231: 00:06:30.32 → 00:06:31.49 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.16s/1.16s = 100%)
+
+Subtitle #232: 00:06:31.49 → 00:06:33.00 [🟢 CONFIDENT]
+  → Người 2 (overlap: 1.52s/1.52s = 100%)
+
+Subtitle #233: 00:06:33.00 → 00:06:34.17 [🟡 UNCERTAIN]
+  → Người 2 (overlap: 0.97s/1.16s = 83%)
+
+Subtitle #234: 00:06:34.17 → 00:06:34.85 [🔴 UNKNOWN]
+  → không xác định (không có overlap nào)
+
+Tổng: 234 câu | 🟢 CONFIDENT: 163 (70%) | 🟡 UNCERTAIN: 54 (23%) | 🔴 UNKNOWN: 17 (7%)
